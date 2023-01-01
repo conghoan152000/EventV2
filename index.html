@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi" class="no-js" ng-app="ngModule" >
+	<head>
+		<meta charset="UTF-8">
+		<title>Trang chủ</title>
+		<link rel="shortcut icon" href="./images/DoNhuY15102022.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <script src="./script.js"></script>
+	</head>
+    <body ng-controller="myController">
+        <div style="margin-top: 5%;">
+            <div class="col-12 text-center">
+                <div class='txtelegantshadow'>Đây là tiêu đề chưa nghĩ ra!</div>
+            </div>
+        </div>
+        <div style="margin-top: 10%;">
+            <div class="row">
+                <div class="col-4 offset-4">
+                    <input type="text" class="form-control" placeholder="Nhập mã event muốn vào!" ng-model="MaChuyen">
+                </div>
+                <div class="col-2">
+                    <button data-ng-click="ChuyenKhoa()" type="button" class="btn btn-success">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column justify-content-center">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+            </div>
+          </div>
+    </body>
+</html>
